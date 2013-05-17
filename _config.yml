@@ -13,7 +13,7 @@ title : InfoSecly
 tagline: Site Tagline
 author :
   name : Abror
-  email : info@infosecly.com
+  email : infosecly@gmail.com
   github : abcom
   twitter : abrorcom
   feedburner : feedname
@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : infosecly
     livefyre :
       site_id : 123
     intensedebate :
@@ -101,7 +101,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-41003488-1'
     getclicky :
       site_id : 
     mixpanel :
