@@ -1,9 +1,28 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: default
+title: Everything on Information Security
+tagline: Personal Blog
 ---
 {% include JB/setup %}
+
+<div class="posts">
+  <div class="span14">  
+  {% for post in site.posts %}
+  <div>
+    <h1>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </h1>
+  </div>
+  <div style="display: inline">
+      {{ post.content | truncatehtml: 500 }}
+        <a href="{{ post.url }}" style="float: left">read more</a>
+      <p style="float: right">
+        <a href='{{post.url}}#disqus_thread'>Comments</a>
+      </p>
+  </div>
+  {% endfor %}
+  </div>
+</div>
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
