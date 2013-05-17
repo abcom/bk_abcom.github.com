@@ -23,7 +23,7 @@ tagline: Personal Blog
 
   <div style="display: inline">
       {{ post.content | truncatehtml: 500 }}
-        <a href="{{ post.url }}" style="float: left">read more</a>
+        <a href="{{ post.url }}" style="float: left">...Read more</a>
       <p style="float: right">
         <a href='{{post.url}}#disqus_thread'>Comments</a>
       </p>
