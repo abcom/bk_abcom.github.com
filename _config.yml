@@ -10,9 +10,9 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : InfoSecly
-tagline: Site Tagline
+tagline: Everything on Information Security
 author :
-  name : Abror
+  name : Infosecly.com
   email : infosecly@gmail.com
   github : abcom
   twitter : abrorcom
