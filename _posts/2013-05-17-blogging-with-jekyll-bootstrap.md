@@ -6,7 +6,8 @@ category: jekyll
 tags: [jekyll,bootstrap]
 ---
 
-Finally, I have decided to go with Jekyll for my personal blog and have chosen Jekyll-
-Bootstrap to reduce design/tweak effort ;). 
+Finally, I have decided to use Jekyll for my personal blog on Information Security and have chosen [Jekyll-Bootstrap](http://jekyllbootstrap.com), thinking I would spent less effort for design/ configuration tweaks ;). 
+
+To be honest, I didn't like any of ready-made the Jekyll-Bootstrap themes, so this blog is based on [Bootswatch theme](https://github.com/geevi/theme-bootswatch). 
 
 {% include JB/setup %}
