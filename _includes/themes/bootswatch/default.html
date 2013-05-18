@@ -45,9 +45,15 @@
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <div class="nav-collapse">
             <ul class="nav">
-              	{% assign pages_list = site.pages %}
-            	{% assign group = 'navigation' %}
-            	{% include JB/pages_list %}
+              <li><a href="/about.html">About</a></li>        
+              <li><a href="/archive.html">Archive</a></li>
+              <li><a href="/categories.html">Categories</a></li>
+              <li><a href="/tags.html">Tags</a></li>
+              <!--	
+                {% assign pages_list = site.pages %}
+            	  {% assign group = 'navigation' %}
+            	  {% include JB/pages_list %}
+              -->  
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -69,7 +75,7 @@
 	  <hr>
 
       <footer>
-        <p>&copy; 2013 {{ site.author.name }} 
+        <p align="center">&copy; 2013 {{ site.author.name }}  |  Follow me <a href="http://twitter.com/infosecly" >@infosecly</a> 
         </p>
       </footer>
 
@@ -91,6 +97,16 @@
     <script src="{{ ASSET_PATH }}/js/bootstrap-collapse.js"></script>
     <script src="{{ ASSET_PATH }}/js/bootstrap-carousel.js"></script>
     <script src="{{ ASSET_PATH }}/js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript">
+      var disqus_shortname = 'infosecly';
+
+      (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
 
   </body>
 </html>
